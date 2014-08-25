@@ -4,7 +4,6 @@
 	<table cellpadding="0" cellspacing="0">
 		<th>Title</th>
 		<th>Body</th>
-		<th>User</th>
 		<th class="actions">Actions</th>
 		</tr>
 		<?php		
@@ -20,7 +19,6 @@
 		<tr <?php echo $class; ?>>
 			<td><?php echo $post['Post']['title']; ?></td>
 			<td><?php echo $post['Post']['body']; ?></td>
-			<td><?php echo $post['Post']['user_id']; ?></td>
 			<td class='actions'>
 			<?php 
 				echo $this->Html->link('Editar', array('action' => 'editar', $post['Post']['id'])); 
