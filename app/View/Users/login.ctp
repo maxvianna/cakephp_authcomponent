@@ -6,5 +6,5 @@
 	echo $this->Form->end('Login');
 ?>
 <p>
-	<?php echo $this->Html->link('Cadastrar novo Usuário', array('action' => 'add')); ?>
+	<?php echo $this->Html->link('Cadastrar novo Usuário', array('action' => 'adicionar')); ?>
 </p>

@@ -72,7 +72,7 @@
       public function beforeFilter()
       {
          parent::beforeFilter();
-         $this->Auth->allow('login', 'add');       
+         $this->Auth->allow('login', 'adicionar');       
       }
 
       public function isAuthorized($user)
